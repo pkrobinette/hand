@@ -3,7 +3,7 @@
 """
 Created on Wed May 13 14:20:39 2020
 
-@author: probinette4
+@author: pkrobinette
 Description: Comparing multiple machine learning classifiers for accuracy and digit
 recognition.
 """
