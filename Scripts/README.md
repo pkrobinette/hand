@@ -1,4 +1,4 @@
-# Myoelectric Control of Robotics via Machine Learning Interpretation
+# Scripts
 
 ## Usage
 1. `combinedFeatureExtraction.py`  *Used in research 19/20*
