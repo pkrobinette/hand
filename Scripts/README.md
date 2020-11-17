@@ -16,7 +16,7 @@ To use this file, place the file path of the raw data into the variable PATH.
 Place the file path of where you want the extracted features to populate in PATH2.
 
 
-1. `Algorithms5_13.py`
+1. `gen_ml_models.py`
 This file runs several algorithms on the data created in
 `combinedFeatureExtraction.py`.
 - Logistic Regression
