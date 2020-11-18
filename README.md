@@ -12,7 +12,7 @@ The signals from the electrodes on the arm are then read by a PCB which takes th
 
 The amplified MES from the PCB is then read into an Arduino which controls the 3D printed hand by triggering attached servos. Once activated, the servos rotate, pulling their attached strings which are run the 3D printed hand's fingers like tendons, and closing the hand into a fist. Once activated again, the servos rotate back, releasing the tension in their strings and allowing the hand to open again. The figure below shows the 3D printed hand and the servos attached on the back.
 
-![3D Printed Hand](/Images/hand.png)
+![3D Printed Hand](/Images/3D_hand.png)
 
 Previous research has accomplished the response of the hand to opening and closing, and the results can be seen [here.](https://www.youtube.com/watch?v=ljKoZNYS_Rw) This research works to improve upon this past model by implementing control for individual fingers.
 
