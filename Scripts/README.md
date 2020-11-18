@@ -30,4 +30,4 @@ To use this file, place the file of the extracted features into the variable
 PATH2.
 
 
-### Authors: Preston Robinette, Payton Phelps, Eli Owens
+**Authors:** Preston Robinette, Payton Phelps, Eli Owens
