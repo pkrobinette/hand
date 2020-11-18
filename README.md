@@ -2,9 +2,11 @@
 This library is used for research on the myoelectric control of prosthetics and robotics via machine learning interpretation. In an effort to increase the functionality of prosthetic and robotics, this research focuses on increasing dexterity by identifying/classifying individual finger movements, a challenge due to the interconnected nature of the muscles of the forearm and the noninvasive nature of electrodes.
 
 A myoelectric signal (MES) is a voltage difference measured across two muscles as shown in the figure below. The two electrodes across the muscles of the forearm are measuring the MES and the third electrode across the boney part of the elbow is used to ground the signal.
+
 ![Electrode Diagram](/Images/Electrode_Diagram.png)
 
 The signals from the electrodes on the arm are then read by a PCB which takes the differential voltage, or MES, filters the signal, and amplifies the signal to be read by an Arduino. A diagram of the circuit is on the left which shows the components of the circuit and their functions. The physical PCB is pictured on the right.
+
 ![Circuit Diagram](/Images/circuit_diagram.png)
 ![Circuit](/Images/circuit.png)
 
