@@ -1,6 +1,16 @@
 # Myolectric Control of Prosthetics and Robotics via Machine Learning Interpretation
-This library is used for research on the myoelectric control of prosthetics and robotics via machine learning interpretation. In an effort to increase the functionality of prosthetic and robotics, this research focuses on increasing dexterity by identifying individual finger movements, a challenge due to the interconnected nature of the muscles of the forearm. 
+This library is used for research on the myoelectric control of prosthetics and robotics via machine learning interpretation. In an effort to increase the functionality of prosthetic and robotics, this research focuses on increasing dexterity by identifying/classifying individual finger movements, a challenge due to the interconnected nature of the muscles of the forearm and the noninvasive nature of electrodes.
+
+A myoelectric signal (MES) is a voltage difference measured across two muscles as shown in the figure below. The two electrodes across the muscles of the forearm are measuring the MES and the third electrode across the boney part of the elbow is used to ground the signal.
 ![Electrode Diagram](/Images/Electrode_Diagram.png)
+
+The signals from the electrodes on the arm are then read by a PCB which takes the differential voltage, or MES, filters the signal, and amplifies the signal to be read by an Arduino. A diagram of the circuit is on the left which shows the components of the circuit and their functions. The physical PCB is pictured on the right.
+![Circuit Diagram](/Images/circuit_diagram.png)
+![Circuit](/Images/circuit.png)
+
+The amplified MES from the PCB is then read into an Arduino which controls the 3D printed hand by triggering attached servos. Once activated, the servos rotate, pulling their attached strings which are run the 3D printed hand's fingers like tendons, and closing the hand into a fist. Once activated again, the servos rotate back, releasing the tension in their strings and allowing the hand to open again. Previous research has accomplished the response of the hand to opening and closing, and the results can be seen [here.](https://www.youtube.com/watch?v=ljKoZNYS_Rw) 
+
+This research works to improve upon this past model by implementing control for individual fingers.
 
 ## [Circuit](https://github.com/pkrobinette/hand/tree/main/Circuit%2019:20)
 - KiCAD files for the PCB with surface mounted components used in this research.
